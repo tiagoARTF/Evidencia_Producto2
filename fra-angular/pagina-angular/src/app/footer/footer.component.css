@@ -1,0 +1,30 @@
+/* Estilos específicos para este componente */
+footer {
+  background-color: #9e1a09; /* Color de fondo del footer */
+  color: #fff; /* Color del texto */
+  padding: 5rem; /* Espaciado interno del footer */
+}
+
+.footer-container {
+  max-width: 1200px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar el contenido horizontalmente */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #fff; /* Color de los enlaces */
+}
+
+.footer-info {
+display: flex;
+padding-right: 12rem;
+}
+
+.footer-info p {
+margin: 0 20px; /* Espacio horizontal entre los párrafos de información */
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  

@@ -1,0 +1,22 @@
+  
+img{
+    display: flex; /* Activa el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.container {
+  background: url("https://programmerthailand.com/files/contents/angularjs/angular_bg.png");
+  padding: 18rem;
+  text-align: center;
+}
+
+.menu {
+  text-align: center; /* Centro el contenido horizontalmente */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(227, 226, 226);
+}

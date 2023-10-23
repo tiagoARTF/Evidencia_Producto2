@@ -1,0 +1,46 @@
+header{
+  background-color: #a9a8a8;
+  color: aliceblue;
+  padding: 1rem;
+}
+
+.header-container {
+  max-width: 1200px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar el contenido horizontalmente */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  text-align: center; /* Centro el contenido horizontalmente */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu ul {
+  list-style: none; /* Elimina los puntos de la lista */
+  padding-right: 10rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu li {
+  margin: 0 20px; /* Espacio horizontal entre elementos del menú */
+}
+
+.menu a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #333; /* Color de los enlaces */
+  font-weight: 600; /* Grosor de la fuente */
+  font-size: 16px; /* Tamaño de la fuente */
+}
+  img{
+    width: 180px;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    display: flex; /* Permite la alineación vertical de la imagen y el texto */
+    padding-right: 65rem;
+  }
+  
